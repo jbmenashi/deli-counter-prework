@@ -20,5 +20,5 @@ def line(the_line)
       line_string << "#{idx + 1}. #{name}"
     end
   end
-    puts "The line is currently: #{line_string}""
+    puts "The line is currently: #{line_string}"
 end
