@@ -18,6 +18,7 @@ def line(the_line)
     line_string = ""
     the_line.each_with_index do |name, idx|
       line_string << "#{idx + 1}. #{name}"
+    end
   end
     puts "The line is currently: #{line_string}""
 end
