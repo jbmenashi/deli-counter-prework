@@ -10,3 +10,10 @@ def now_serving(line)
     puts "Currently serving #{line.shift}."
   end
 end
+
+def line(the_line)
+  if the_line.size == 0 
+    puts "The line is currently empty"
+  else
+  end
+end
