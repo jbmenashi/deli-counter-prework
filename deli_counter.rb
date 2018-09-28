@@ -13,7 +13,7 @@ end
 
 def line(the_line)
   if the_line.size == 0 
-    puts "The line is currently empty"
+    puts "The line is currently empty."
   else
   end
 end
