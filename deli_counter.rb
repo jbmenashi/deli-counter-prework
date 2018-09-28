@@ -4,7 +4,7 @@ def line(katz_deli)
   else
     let line_addition = []
     katz_deli.each do |name|
-      line.addition.push()
+      line.addition.push("#{katz_deli.index(name) + 1}. #{name}")
     
     
     
