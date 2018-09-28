@@ -6,7 +6,7 @@ def line(katz_deli)
     katz_deli.each do |name|
       line.addition.push("#{katz_deli.index(name) + 1}. #{name}")
     end
-    "The line is currently: "
+    "The line is currently: #{line_addition}."
     
     
   end
