@@ -4,7 +4,7 @@ def line(katz_deli)
   else
     katz_deli.each do |name|
       katz_deli << name
-      "Welcome, #{name}. You are number #{katz_deli.size} in line."
+      puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
     end
   end
 end
